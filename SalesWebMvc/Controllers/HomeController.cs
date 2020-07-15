@@ -20,6 +20,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Index()
         {
+            ViewData["autor"] = "Marcelo Felipe";
+            ViewData["system"]= "Sistema controle de Vendas";
             return View();
         }
 
